@@ -19,9 +19,10 @@ Repository for the paper titled "Ionic waves drive fluid flow by inducing spatio
   **Output:** Possible outputs are (i) porosity field, (ii) temporal derivative of porosity, (iii) pressure field, (iv) x-velocity field, and (v) y-velocity field,
 
 **(3) Compile and run instructions:**
-    Linear algebra packages llapack and lblas are needed. 
+    Linear algebra packages llapack and lblas are needed. The following lines need to be executed to compile and run the .f90 code.
 
-**Description:** gfortran SD_wave_code.f90 -o sd_wave -bigmem=true
+    > gfortran SD_wave_code.f90 -o -llapack -lblas -mcmodel=large
+    > ./a.out
 
 **(4) Citation:**
 
