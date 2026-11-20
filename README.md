@@ -1,5 +1,5 @@
 # SD_wave_ISF_flow
-Repository for the paper titled "Ionic waves drive fluid flow by inducing spatiotemporal porosity variations in the brain interstitial space" (***bioarxiv link***)
+Repository for the manuscript titled "Ionic waves drive fluid flow by inducing spatiotemporal porosity variations in the brain interstitial space" undergoing peer review (preprint available on bioRxiv: https://www.biorxiv.org/content/10.64898/2026.11.18.766825v1)
 
 **(1) SD wave code:**
 
@@ -24,6 +24,6 @@ Repository for the paper titled "Ionic waves drive fluid flow by inducing spatio
     > gfortran SD_wave_code.f90 -o -llapack -lblas -mcmodel=large
     > ./a.out
 
-**(4) Citation:**
+**(4) Citation:** 
 
-**Description:** bioarxiv link soon
+**Description:**  Please cite the preprint available on bioRxiv (https://www.biorxiv.org/content/10.64898/2026.11.18.766825v1).
